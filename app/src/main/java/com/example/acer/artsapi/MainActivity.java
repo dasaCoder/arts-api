@@ -170,13 +170,23 @@ public class MainActivity extends AppCompatActivity
 
 
         if(id == R.id.home){
-
+            fragment1 = new HomeFragment();
         } else if (id == R.id.nav_camera) {
             fragment1 = new FbPageFragment();
             //this.setDrawerState(false);
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-            fragment1 = new GalleryFragment();
+        } else if (id == R.id.nav_fb_grp) {
+            fragment1 = new FbGroupFragment();
+            //this.setDrawerState(false);
+
+
+        }else if (id == R.id.nav_insta) {
+            fragment1 = new InstagramFragment();
+            //this.setDrawerState(false);
+
+
+        }else if (id == R.id.nav_twitter) {
+            fragment1 = new TwitterFragment();
             //this.setDrawerState(false);
 
 

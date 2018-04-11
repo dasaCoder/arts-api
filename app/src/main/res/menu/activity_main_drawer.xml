@@ -14,18 +14,29 @@
             android:icon="@drawable/fb"
             android:title="Arts api fb page" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-
+            android:id="@+id/nav_fb_grp"
+            android:icon="@drawable/fbgrp"
+            android:title="Arts api fb group" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="About us" />
+            android:id="@+id/nav_insta"
+            android:icon="@drawable/insta"
+            android:title="Arts api instagram" />
+        <item
+            android:id="@+id/nav_twitter"
+            android:icon="@drawable/twitter"
+            android:title="Arts api twitter page" />
+
+
     </group>
 
     <item android:title="Communicate">
         <menu>
+
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="About us" />
+
             <item
                 android:id="@+id/rate_us"
                 android:icon="@drawable/star"

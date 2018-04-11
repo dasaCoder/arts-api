@@ -62,6 +62,6 @@ public class HomeFragment extends Fragment {
                         Toast.LENGTH_LONG).show();
             }
         });
-        ourBrow.loadUrl("http://artsapi-team.000webhostapp.com/index.html");
+        ourBrow.loadUrl("https://www.artsapi.lk");
     }
 }

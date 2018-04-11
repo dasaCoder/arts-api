@@ -18,25 +18,26 @@ import android.widget.Toast;
 import static android.content.Context.DOWNLOAD_SERVICE;
 
 /**
- * Created by ACER on 4/6/2018.
+ * Created by ACER on 4/11/2018.
  */
 
-public class FbPageFragment extends Fragment {
-    
+public class TwitterFragment extends Fragment {
+
     private WebView fbpage_view;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fbfragment_res, null);
+        return inflater.inflate(R.layout.twitter_res, null);
     }
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        getActivity().setTitle("Arts api Facebook page");
+        getActivity().setTitle("Arts api facbood group");
 
-       fbpage_view = view.findViewById(R.id.fbpage_view);
+        fbpage_view = view.findViewById(R.id.twitter_view);
 
         fbpage_view.getSettings().setJavaScriptEnabled(true);
         fbpage_view.setWebChromeClient(new WebChromeClient());
@@ -65,9 +66,7 @@ public class FbPageFragment extends Fragment {
                         Toast.LENGTH_LONG).show();
             }
         });
-        fbpage_view.loadUrl("https://www.facebook.com/artsapi/");
+        fbpage_view.loadUrl("https://twitter.com/Artsapisl");
 
     }
-
-
 }
