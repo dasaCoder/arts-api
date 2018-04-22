@@ -18,6 +18,35 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.021"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="273dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/splasg2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="We started this Website with a main goal of uniting students island wide who are struggling with their Advance level examinations. Our Website helps the young scholars to pre-prepare for their examination and motivate further to achieve their objectives. Since we started this Website as a small division, today it is growing successfully. Therefore, thankful to our page admins we have been a massive advantage to the students. This Website basically contains past examination papers of ‘Arts stream’ which are being previously issued by the Sri Lankan government, and some of the practice tests or short notes which will support you. Furthermore, you can find a variety of subjects regarding Arts stream within our Website. Our intention is to see you succeed and to resolve your dissatisfaction of your examination. So, step inside, help yourself out"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.258" />
+
 </android.support.constraint.ConstraintLayout>

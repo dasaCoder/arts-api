@@ -35,7 +35,7 @@ public class TwitterFragment extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        getActivity().setTitle("Arts api facbood group");
+        getActivity().setTitle("Arts api Twitter page");
 
         fbpage_view = view.findViewById(R.id.twitter_view);
 

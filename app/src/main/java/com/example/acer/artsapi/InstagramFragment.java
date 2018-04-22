@@ -1,5 +1,6 @@
 package com.example.acer.artsapi;
 
+import android.annotation.SuppressLint;
 import android.app.DownloadManager;
 import android.net.Uri;
 import android.os.Bundle;
@@ -24,6 +25,7 @@ import static android.content.Context.DOWNLOAD_SERVICE;
 public class InstagramFragment extends Fragment {
 
     private WebView fbpage_view;
+
 
     @Nullable
     @Override
