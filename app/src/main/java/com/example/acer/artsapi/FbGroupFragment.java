@@ -35,7 +35,7 @@ public class FbGroupFragment extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        getActivity().setTitle("Arts api facbood group");
+        getActivity().setTitle("Arts api facbook group");
 
         fbpage_view = view.findViewById(R.id.fbgrp_view);
 
